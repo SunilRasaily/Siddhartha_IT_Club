@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- <style>
+        #road{
+            height: 510px;
+            margin: 0px 500px;
+        }
+        #car{
+            /* transform: rotate(180deg); */
+            position: absolute;
+        }
+        #road #row{
+            color: yellow;
+            float: left;
+            text-align: center;
+            height: 510px;
+            width: 78px;
+            background-color: rgb(86, 86, 88);
+        }
+        #obstacles{
+            height: 510px;
+            position: absolute;
+            margin: 0px 500px;
+        }
+        #gameInfo{
+            margin: 0px 500px;
+            position: absolute;
+        }
+        #gameInfo > p:nth-child(2){
+            margin-top: 200px;
+            display: none;
+            margin-left: 70px;
+        }
+      
+    </style> -->
+</head>
+<body>
+    <img src="./images/car.png" height="100px" width="50px" id="car">
+
+    <div id="obstacles"></div>
+    
+    <div id="gameInfo">
+        <p>Score: 0</p>
+        <p>Game Over</p>
+    </div>
+
+    <div id="road">
+        <div id="row"></div>
+        <div id="row"></div>
+        <div id="row"></div>
+    </div>
+    <script src="learn.js"></script>
+</body>
+</html>

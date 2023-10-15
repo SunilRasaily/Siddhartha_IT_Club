@@ -1,0 +1,30 @@
+#road{
+    height: 510px;
+    margin: 0px 500px;
+}
+#car{
+    /* transform: rotate(180deg); */
+    position: absolute;
+}
+#road #row{
+    color: yellow;
+    float: left;
+    text-align: center;
+    height: 510px;
+    width: 78px;
+    background-color: rgb(86, 86, 88);
+}
+#obstacles{
+    height: 510px;
+    position: absolute;
+    margin: 0px 500px;
+}
+#gameInfo{
+    margin: 0px 500px;
+    position: absolute;
+}
+#gameInfo > p:nth-child(2){
+    margin-top: 200px;
+    display: none;
+    margin-left: 70px;
+}
